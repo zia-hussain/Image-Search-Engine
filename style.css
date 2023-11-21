@@ -79,3 +79,11 @@ grid-gap: 40px;
     object-fit: cover;
     border-radius: 5px;
 }
+@media only screen and (max-width: 600px) {
+    #images-result{
+        grid-gap: 30px;
+    margin: 50px auto 50px;
+    grid-template-columns: 1fr 1fr;
+
+    }
+}
