@@ -66,3 +66,16 @@ cursor: pointer;
 margin: 30px auto 100px;
 display: none;
 }
+#images-result{
+    width: 80%;
+    margin: 100px auto 50px;
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 40px;
+}
+#images-result img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 5px;
+}
